@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		328CB63617CF3FDF003EFD6D /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
-		328CB63817CF4038003EFD6D /* ExampleUiToolkitCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = ExampleUiToolkitCommandLine; path = /Volumes/DeepData/Sorgenti/chaos_bundle_dev/example/ExampleUIToolkitCommandLine/../../../usr/local/bin/ExampleUiToolkitCommandLine; sourceTree = "<absolute>"; };
 		328CB63917CF415F003EFD6D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		328CB65617CF7C0D003EFD6D /* ExampleUiToolkitCommandLine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExampleUiToolkitCommandLine; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +52,7 @@
 			children = (
 				328CB63617CF3FDF003EFD6D /* CMakeLists.txt */,
 				328CB63B17CF4164003EFD6D /* src */,
+				328CB65617CF7C0D003EFD6D /* ExampleUiToolkitCommandLine */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +73,7 @@
 			);
 			name = ExampleUiToolkitCommandLine;
 			productName = UIToolkitCMDLineExample;
-			productReference = 328CB63817CF4038003EFD6D /* ExampleUiToolkitCommandLine */;
+			productReference = 328CB65617CF7C0D003EFD6D /* ExampleUiToolkitCommandLine */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +165,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../../usr/local/bin";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../usr/local/bin";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -200,7 +201,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../../usr/local/bin";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../usr/local/bin";
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = ../../usr/local/include;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../usr/local/lib";

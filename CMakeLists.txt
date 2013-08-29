@@ -23,7 +23,7 @@ add_definitions(-DBOOST_ALL_DYN_LINK)
 SET(uicmdtest_exe_src main.cpp)
 
 
-ADD_EXECUTABLE(ExampleUIToolkitCMDLine ${uicmdtest_exe_src})
-TARGET_LINK_LIBRARIES(ExampleUIToolkitCMDLine chaos_uitoolkit chaos_common boost_program_options boost_system boost_thread boost_chrono boost_regex boost_log boost_log_setup boost_atomic memcached msgpack msgpack-rpc mpio)
+ADD_EXECUTABLE(ExampleUIToolkitCommandLine ${uicmdtest_exe_src})
+TARGET_LINK_LIBRARIES(ExampleUIToolkitCommandLine chaos_uitoolkit chaos_common boost_program_options boost_system boost_thread boost_chrono boost_regex boost_log boost_log_setup boost_atomic memcached msgpack msgpack-rpc mpio)
 
-INSTALL_TARGETS(/bin ExampleUIToolkitCMDLine)
+INSTALL_TARGETS(/bin ExampleUIToolkitCommandLine)
